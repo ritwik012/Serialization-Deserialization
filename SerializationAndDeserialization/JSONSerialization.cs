@@ -12,7 +12,7 @@ namespace SerializationAndDeserialization
         {
             BlogSites bsObj = new BlogSites()
             {
-                Name = "Naveen",
+                Name = "Rutwik",
                 Description = "Welcome to the Universe"
             };
             string jsonData = JsonConvert.SerializeObject(bsObj);
